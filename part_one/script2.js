@@ -1,147 +1,168 @@
-//Learn 22
-// Objects
-// The object type refers to a compound value where you can set properties (named locations)
-// that each hold their own values of any type. This is perhaps one of the most useful value
-// types in all of JavaScript.
 
-// var comment = {
-//   description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-//   display: true,
-//   points: 10,
-// };
+//Learn 01
+// time : 10m | 10m
 
-// alert(comment.description);
-// alert(comment.display);
-// alert(comment.points);
-
-// Or call like this :
-
-// alert(comment["description"]);
-// alert(comment["display"]);
-// alert(comment["points"]);
-
-//Learn 23
-// Question1     =================>  How can have multiple(list of) comments?
-
-//Learn 24
-//Count the number of items in array
-
-// var cars = ["Saab", "Volvo", "BMW"];
-// var items = ["Egg", true, "Mammad", 22, 192.85];
-// var data = ["Car", false, "Rasoul", 1, 192.85, 20.50, 'c'];
-
-// // cars.length
-
-// alert(cars.length);
-// alert(items.length);
-// alert(data.length);
-
-//Learn 25
-//Accessing the Last Array Element
-//introduction to index
-
-// var cars = ["Saab", "Volvo", "BMW"];
-// var items = ["Egg", true, "Mammad", 22, 192.85];
-// var data = ["Car", false, "Rasoul", 1, 192.85, 20.50, 'c'];
-
-// alert(cars[2]);
-// alert(items[4]);
-// alert(data.length[6]);
-
-//Learn 26
-//Accessing the Last Array Element
-//BEST PRACTICE
-
-// var cars = ["Saab", "Volvo", "BMW"];
-// var items = ["Egg", true, "Mammad", 22, 192.85];
-// var data = ["Car", false, "Rasoul", 1, 192.85, 20.50, 'c'];
-
-// alert(cars[cars.length - 1]);
-// alert(items[items.length - 1]);
-// alert(data[data.length - 1]);
-
-//Learn 27
-//Looping Array Elements
-
-// for (let i = 0; i < 5; i++) {
-//   alert(i);
+// if(true){
+//     console.log("hello");
+// }
+// else{
+//     console.log("goodbye");
 // }
 
-//Learn 28
 
-// var fruits = ["Banana", "Orange", "Apple", "Mango"];
-// var counter = fruits.length;
 
-// for (let i = 0; i < fLen; i++) {
-//   alert(fruits[i]);
+
+//Learn 02
+// time : 5m | 15m
+
+// var x = true;
+// if(x){
+//     console.log("hello");
+// }
+// else{
+//     console.log("goodbye");
 // }
 
-//Learn 29
-//Adding array Elements
 
-// var fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-// fruits.push("Lemon");
+//Learn 03
+// time : 5m | 20m
 
-// var counter = fruits.length;
-
-// for (var i = 0; i < fLen; i++) {
-//   alert(fruits[i]);
+// if(1 > 2){
+//     console.log("hello");
+// }
+// else{
+//     console.log("goodbye");
 // }
 
-//Learn 30
-//Defining array
-
-// var points = new Array();
-// var points = [];
-
-//Learn 23
-// Question1     =================>  How can have multiple(list of) comments?
-// Answer1       =================>  :
-
-//Creating object for comment
-// var comment = {
-//   description: "",
-//   display: false,
-//   points: 0,
-// };
-
-// //Creating comments
-// var comment1 = {
-//   description: "1 - Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-//   display: true,
-//   points: 10,
-// };
-
-// var comment2 = {
-//   description: "2 - Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-//   display: true,
-//   points: 2,
-// };
-
-// var comment3 = {
-//   description: "3 - Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-//   display: false,
-//   points: 22,
-// };
 
 
-// //Creating array for comments
-// var commenList = new Array();
 
-// commenList.push(comment1);
-// commenList.push(comment2);
-// commenList.push(comment3);
+//Learn 04
+// time : 10m + 5m | 35m
 
-
-// //Iterating comments
-
-// for (var i = 0; i < commenList.length; i++) {
-//   var result =
-//     commenList[i].points +
-//     " | " +
-//     commenList[i].display +
-//     " | " +
-//     commenList[i].description;
-//   alert(result);
+// for(var i = 0; i < 10; i++){
+//     console.log(i);
 // }
+
+
+
+
+
+//Learn 05
+// تمرین کلاسی
+// time : 10m + 10m | 55m
+// حلقه ای بنویسید که فقط اعداد زوج را از یک تا 10 چاپ کند
+
+// for(var i = 1; i <= 10; i++){
+//     if(i % 2 == 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+
+
+//Learn 06
+// تمرین کلاسی
+// time : 5m + 5m | 45m
+// حلقه ای بنویسید که فقط اعداد فرد را از یک تا 10 چاپ کند
+
+// for(var i = 1; i <= 10; i++){
+//     if(i % 2 != 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+
+
+//Learn 07
+// تمرین کلاسی
+// time : 5m + 5m | 55m
+// حلقه ای بنویسید که از صفر تا منفی ده ادامه پیداکند
+
+// for(var i = 0; i >= -10; i--){
+//     console.log(i);
+// }
+
+
+
+
+
+
+
+//Learn 08
+// تمرین کلاسی
+// time : 10m + 5m | 70m
+// حلقه ای بنویسید از یک تا ده پیشبرود و اعداد زوج را به توان 2 برساند و برای اعداد فرد باقیماندهشان را بر 2 نشان دهد
+
+// for(var i = 1; i <= 10; i++){
+//     if(i % 2 == 0){
+//         console.log(i * i);
+//     }
+//     else{
+//         console.log(i % 2);
+//     }
+// }
+
+
+
+//Learn 09
+// time : 5m + 0m | 75m
+
+// document.write("Ali Reza");
+
+
+
+//Learn 10
+// time : 5m + 0m | 80m
+
+// document.write(1);
+
+
+
+
+//Learn 11
+// time : 5m + 0m | 85m
+
+// document.write("Ali Reza" + "Khazaei Nezhad");
+
+
+
+
+//Learn 12
+// time : 5m + 0m | 90m
+
+// document.write("Ali Reza" + "<br>" + "Khazaei Nezhad");
+
+
+
+//Learn 13
+// time : 5m + 0m | 95m
+// var fullName = "َAli Reza Khazaei Nezhad";
+
+// document.write(fullName.length);
+
+
+
+
+
+//Learn 14
+// time : 5m + 0m | 100m
+// var fullName = "Ali Reza Khazaei Nezhad";
+
+// document.write(fullName[0]);
+
+
+
+
+
+//Learn 15
+// time : 5m + 0m | 105m
+// var fullName = "Ali Reza Khazaei Nezhad";
+
+// document.write(fullName[fullName.length - 1]);
+

@@ -434,4 +434,4 @@ var djBestProducts = [
 
 
 
-/// script2 (8.jpg) do in home
+/// 8.jpg (example1-homework) do in home
