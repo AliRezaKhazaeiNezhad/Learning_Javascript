@@ -26,9 +26,9 @@
 // for(var i = 0; i < fullName.length; i++){
 //     var letter = fullName[i];
 
-//     if(letter  == 'A' || 
-//        letter  == 'a' || 
-//        letter  == 'O' || 
+//     if(letter  == 'A' ||
+//        letter  == 'a' ||
+//        letter  == 'O' ||
 //        letter  == 'o' ||
 //        letter  == 'U' ||
 //        letter  == 'u' ||
@@ -52,15 +52,14 @@
 
 
 // var fullName = "Ali Reza Khazaei Nezhad";
-
-// var letter = '';
 // fullName = fullName.toLowerCase();
 
 // for(var i = 0; i < fullName.length; i++){
 //     var letter = fullName[i];
 
-//     if(letter  == 'a' || 
+//     if(letter  == 'a' ||
 //        letter  == 'o' ||
+//        letter  == 'e' ||
 //        letter  == 'u' ||
 //        letter  == 'i'){
 //         document.write("<b><u><mark>" + letter + "</mark></b></u><br>");
@@ -87,7 +86,7 @@
 
 // for(var i = 0; i < fullName.length; i++){
 //     if(i == 0 || i == fullName.length - 1){
-//         result = result + upFullName[i];
+//         result = result + "<mark>"  + upFullName[i] + "</mark>";
 //     }
 //     else{
 //         result = result + lowFullName[i];
@@ -194,6 +193,7 @@
 
 
 //Learn 06
+// تمرین کلاسی
 // چطور میتوانم محصول اولی را چاپ کنم؟
 // var products = [
 //     {
@@ -217,6 +217,7 @@
 
 
 //Learn 07
+// تمرین کلاسی
 // چطور میتوانم محصول دومی را چاپ کنم؟
 // var products = [
 //     {
@@ -241,6 +242,7 @@
 
 
 //Learn 08
+// تمرین کلاسی
 // چطور میتوانم خصوصیات درون محصول اول را چاپ کنم
 // var products = [
 //     {
@@ -267,6 +269,7 @@
 
 
 //Learn 09
+// تمرین کلاسی
 // چطور میتوانم خصوصیات درون محصول دوم را چاپ کنم
 // var products = [
 //     {
@@ -291,4 +294,33 @@
 
 
 //Learn 10
+// تمرین کلاسی
 // چطور میتوانم فقط خصوصیات محصولاتی را چاپ کنم که وضعیت موجودی آنها صحیح است
+
+// var products = [
+//     {
+//         title: "لیوان خوشگل",
+//         price: 100000,
+//         count: 10,
+//         available: true
+//     },
+//     {
+//         title: "فنجون",
+//         price: 450000,
+//         count: 2,
+//         available: false
+//     }
+// ];
+
+
+// for (var i = 0; i < products.length; i++) {
+//     var result= products[i];
+
+//     if (result.available) {
+//         console.log(
+//             result.title + " | " +
+//             result.price + " | " +
+//             result.count
+//         );
+//     }
+// }

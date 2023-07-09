@@ -61,6 +61,18 @@ var topMenu = [
     }
 ]
 
+var navbarCities = [
+    {
+        title: "مشهد",
+        value: "مشهد",
+        selected: true
+    },
+    {
+        title: "تهران",
+        value: "تهران",
+        selected: false
+    }
+]
 
 
 
@@ -99,21 +111,21 @@ var sideMenu = [
 var products = [
     {
         image: "01.jpg",
-        title:"لباس مجلسی زنانه سایز 40 تا 44",
+        title: "لباس مجلسی زنانه سایز 40 تا 44",
         state: 0,
         price: 60000,
         location: "بلوارتوس"
     },
     {
         image: "02.jpg",
-        title:"موتور شباب مدل 97",
+        title: "موتور شباب مدل 97",
         state: 1,
         price: 4500000,
         location: "کشاورز"
     },
     {
         image: "03.jpg",
-        title:"مایکروفر در حد نو هوگل",
+        title: "مایکروفر در حد نو هوگل",
         state: 0,
         price: 3500000,
         location: "بلوارتوس"
