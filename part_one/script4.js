@@ -229,13 +229,17 @@
 // "Ali Reza Khazaei Nezhad"  ===> Ali Reza ...
 
 
-// function detail(data){
-//     if(data.length > 10){
+// function detail(data) {
+//     if (data.length > 10) {
 //         return data.substr(0, 9) + "...";
+//     }
+//     else{
+//         return data;
 //     }
 // }
 
-// document.write(detail("Ali Reza Khazaei Nezhad"));
+// var data = detail("Ali Reza Khazaei Nezhad");
+// document.write(data);
 
 
 
@@ -259,7 +263,8 @@
 //     return data.replace("Lorem", "LOREM");
 // }
 
-// document.write(replaceData("Lorem ipsum dolor,"));
+// var data = replaceData("Lorem ipsum dolor,");
+// document.write(data);
 
 
 
@@ -281,7 +286,8 @@
 //     return data.replace("Lorem", "LOREM").replace("dolor", "$data");
 // }
 
-// document.write(replaceData("Lorem ipsum dolor,"));
+// var data = replaceData("Lorem ipsum dolor,");
+// document.write(data);
 
 
 
@@ -306,7 +312,9 @@
 //     return data.toUpperCase();
 // }
 
-// document.write(upperData("Lorem ipsum dolor,"));
+
+// var data = upperData("Lorem ipsum dolor,");
+// document.write(data);
 
 
 
@@ -331,7 +339,10 @@
 //     return data.toLowerCase();
 // }
 
-// document.write(upperData("LOREM IPSUM DOLOR,"));
+
+// var data = upperData("LOREM IPSUM DOLOR,");
+// document.write(data);
+
 
 
 
@@ -352,8 +363,9 @@
 //     return data.padStart(4, "0");
 // }
 
-// document.write(padStartData("5"));
 
+// var data = padStartData("5");
+// document.write(data);
 
 
 
@@ -375,4 +387,7 @@
 //     return data.padEnd(4, "0");
 // }
 
-// document.write(padEndData("5"));
+
+
+// var data = padEndData("5");
+// document.write(data);
