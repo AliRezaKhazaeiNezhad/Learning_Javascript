@@ -11,14 +11,14 @@
 //     if (data.match('[0-9]{10}') && !wrongFormats.includes(data)) {
 
 //         let sum = 0;
-//         for (var i = 10; i > 1; i--) {
-//             sum = sum + (Number(data[i - 1]) * i);
+//         for (var i = 0; i < 9; i++) {
+//             sum = sum + (Number(data[i]) * (10 - i));
 //         }
 
 //         let sub = sum % 11;
-//         let final = sub >= 2 ? final = 11 - sub : sub;
+//         let final = sub >= 2 ? 11 - sub : sub;
 
-//         if (final == Number(data[0])) {
+//         if (final == Number(data[9])) {
 //             result = true;
 //         }
 //     }
@@ -27,7 +27,7 @@
 // }
 
 
-// var result = validateNationalCode('1111111111');
+// var result = validateNationalCode('0000000000');
 // document.write(result);
 
 
@@ -185,18 +185,18 @@
 // A09
 // time : 5m + 15m | 165m
 
-// function print(count, length){
-//     const pi = 22.7;
+function print(count, length){
+    const pi = 22.7;
 
-//     let up = count * (length * length);
-//     let down = 4 + Math.tan(pi / count);
+    let up = count * (length * length);
+    let down = 4 + Math.tan(pi / count);
 
-//     let result = up / down;
+    let result = up / down;
 
-//     document.write(result);
-// }
+    document.write(result);
+}
 
-// print(3, 20); 
+print(3, 20); 
 
 
 
